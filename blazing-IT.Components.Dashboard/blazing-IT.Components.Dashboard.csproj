@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>blazing_IT.Components.Dashboard</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>blazing-IT.Components.Dashboard</PackageId>
+    <Authors>Sebastian Hoyer</Authors>
+    <Company>blazing-IT</Company>
+    <PackageTags>Blazor, Dashboard</PackageTags>
+    <RepositoryUrl>https://github.com/SebHoyer/blazing-IT.Dashboard</RepositoryUrl>
+    <Version>0.0.0.1</Version>
+    <Description></Description>
   </PropertyGroup>
 
   
@@ -11,6 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="blazing-IT.Components.Bootstrap" Version="0.1.0.1" />
+    <PackageReference Include="blazing-IT.Components.FontAwesome" Version="1.0.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.1" />
   </ItemGroup>
 
